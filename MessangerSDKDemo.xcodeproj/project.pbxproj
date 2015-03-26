@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AE381D71AC4B722007E59EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE381D61AC4B722007E59EC /* AppDelegate.swift */; };
+		7AE381D91AC4B722007E59EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE381D81AC4B722007E59EC /* ViewController.swift */; };
+		7AE381DC1AC4B722007E59EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AE381DA1AC4B722007E59EC /* Main.storyboard */; };
+		7AE381DE1AC4B722007E59EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AE381DD1AC4B722007E59EC /* Images.xcassets */; };
+		7AE381E11AC4B722007E59EC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AE381DF1AC4B722007E59EC /* LaunchScreen.xib */; };
+		7AE381ED1AC4B722007E59EC /* MessangerSDKDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE381EC1AC4B722007E59EC /* MessangerSDKDemoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AE381E71AC4B722007E59EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AE381C91AC4B722007E59EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AE381D01AC4B722007E59EC;
+			remoteInfo = MessangerSDKDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7AE381D11AC4B722007E59EC /* MessangerSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessangerSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AE381D51AC4B722007E59EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AE381D61AC4B722007E59EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7AE381D81AC4B722007E59EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7AE381DB1AC4B722007E59EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AE381DD1AC4B722007E59EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7AE381E01AC4B722007E59EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7AE381E61AC4B722007E59EC /* MessangerSDKDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessangerSDKDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AE381EB1AC4B722007E59EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AE381EC1AC4B722007E59EC /* MessangerSDKDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessangerSDKDemoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AE381CE1AC4B722007E59EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AE381E31AC4B722007E59EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AE381C81AC4B722007E59EC = {
+			isa = PBXGroup;
+			children = (
+				7AE381D31AC4B722007E59EC /* MessangerSDKDemo */,
+				7AE381E91AC4B722007E59EC /* MessangerSDKDemoTests */,
+				7AE381D21AC4B722007E59EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AE381D21AC4B722007E59EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AE381D11AC4B722007E59EC /* MessangerSDKDemo.app */,
+				7AE381E61AC4B722007E59EC /* MessangerSDKDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AE381D31AC4B722007E59EC /* MessangerSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7AE381D61AC4B722007E59EC /* AppDelegate.swift */,
+				7AE381D81AC4B722007E59EC /* ViewController.swift */,
+				7AE381DA1AC4B722007E59EC /* Main.storyboard */,
+				7AE381DD1AC4B722007E59EC /* Images.xcassets */,
+				7AE381DF1AC4B722007E59EC /* LaunchScreen.xib */,
+				7AE381D41AC4B722007E59EC /* Supporting Files */,
+			);
+			path = MessangerSDKDemo;
+			sourceTree = "<group>";
+		};
+		7AE381D41AC4B722007E59EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AE381D51AC4B722007E59EC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7AE381E91AC4B722007E59EC /* MessangerSDKDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7AE381EC1AC4B722007E59EC /* MessangerSDKDemoTests.swift */,
+				7AE381EA1AC4B722007E59EC /* Supporting Files */,
+			);
+			path = MessangerSDKDemoTests;
+			sourceTree = "<group>";
+		};
+		7AE381EA1AC4B722007E59EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AE381EB1AC4B722007E59EC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AE381D01AC4B722007E59EC /* MessangerSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AE381F01AC4B722007E59EC /* Build configuration list for PBXNativeTarget "MessangerSDKDemo" */;
+			buildPhases = (
+				7AE381CD1AC4B722007E59EC /* Sources */,
+				7AE381CE1AC4B722007E59EC /* Frameworks */,
+				7AE381CF1AC4B722007E59EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MessangerSDKDemo;
+			productName = MessangerSDKDemo;
+			productReference = 7AE381D11AC4B722007E59EC /* MessangerSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7AE381E51AC4B722007E59EC /* MessangerSDKDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AE381F31AC4B722007E59EC /* Build configuration list for PBXNativeTarget "MessangerSDKDemoTests" */;
+			buildPhases = (
+				7AE381E21AC4B722007E59EC /* Sources */,
+				7AE381E31AC4B722007E59EC /* Frameworks */,
+				7AE381E41AC4B722007E59EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AE381E81AC4B722007E59EC /* PBXTargetDependency */,
+			);
+			name = MessangerSDKDemoTests;
+			productName = MessangerSDKDemoTests;
+			productReference = 7AE381E61AC4B722007E59EC /* MessangerSDKDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AE381C91AC4B722007E59EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = seyhunak;
+				TargetAttributes = {
+					7AE381D01AC4B722007E59EC = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					7AE381E51AC4B722007E59EC = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 7AE381D01AC4B722007E59EC;
+					};
+				};
+			};
+			buildConfigurationList = 7AE381CC1AC4B722007E59EC /* Build configuration list for PBXProject "MessangerSDKDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AE381C81AC4B722007E59EC;
+			productRefGroup = 7AE381D21AC4B722007E59EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AE381D01AC4B722007E59EC /* MessangerSDKDemo */,
+				7AE381E51AC4B722007E59EC /* MessangerSDKDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AE381CF1AC4B722007E59EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE381DC1AC4B722007E59EC /* Main.storyboard in Resources */,
+				7AE381E11AC4B722007E59EC /* LaunchScreen.xib in Resources */,
+				7AE381DE1AC4B722007E59EC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AE381E41AC4B722007E59EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AE381CD1AC4B722007E59EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE381D91AC4B722007E59EC /* ViewController.swift in Sources */,
+				7AE381D71AC4B722007E59EC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AE381E21AC4B722007E59EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE381ED1AC4B722007E59EC /* MessangerSDKDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AE381E81AC4B722007E59EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AE381D01AC4B722007E59EC /* MessangerSDKDemo */;
+			targetProxy = 7AE381E71AC4B722007E59EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7AE381DA1AC4B722007E59EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AE381DB1AC4B722007E59EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7AE381DF1AC4B722007E59EC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AE381E01AC4B722007E59EC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AE381EE1AC4B722007E59EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7AE381EF1AC4B722007E59EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AE381F11AC4B722007E59EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MessangerSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7AE381F21AC4B722007E59EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MessangerSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7AE381F41AC4B722007E59EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MessangerSDKDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MessangerSDKDemo.app/MessangerSDKDemo";
+			};
+			name = Debug;
+		};
+		7AE381F51AC4B722007E59EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MessangerSDKDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MessangerSDKDemo.app/MessangerSDKDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AE381CC1AC4B722007E59EC /* Build configuration list for PBXProject "MessangerSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AE381EE1AC4B722007E59EC /* Debug */,
+				7AE381EF1AC4B722007E59EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AE381F01AC4B722007E59EC /* Build configuration list for PBXNativeTarget "MessangerSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AE381F11AC4B722007E59EC /* Debug */,
+				7AE381F21AC4B722007E59EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7AE381F31AC4B722007E59EC /* Build configuration list for PBXNativeTarget "MessangerSDKDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AE381F41AC4B722007E59EC /* Debug */,
+				7AE381F51AC4B722007E59EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AE381C91AC4B722007E59EC /* Project object */;
+}
