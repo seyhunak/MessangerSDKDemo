@@ -10,9 +10,23 @@ import UIKit
 
 class ViewController: UIViewController {
 
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        var loginButton:FBSDKLoginButton = FBSDKLoginButton()
+        loginButton.center = self.view.center;
+        self.view.addSubview(loginButton)
+        
+    }
+    
+    @IBAction func sharePhotoInMessenger(sender: UIButton) {
+        
+        var image = UIImage(named: "demo.jpeg")
+        FBSDKMessengerSharer.shareImage(image, withOptions: nil)
+        
     }
 
     override func didReceiveMemoryWarning() {

@@ -13,6 +13,10 @@
 		7AE381DE1AC4B722007E59EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AE381DD1AC4B722007E59EC /* Images.xcassets */; };
 		7AE381E11AC4B722007E59EC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AE381DF1AC4B722007E59EC /* LaunchScreen.xib */; };
 		7AE381ED1AC4B722007E59EC /* MessangerSDKDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE381EC1AC4B722007E59EC /* MessangerSDKDemoTests.swift */; };
+		7AE382031AC4B80F007E59EC /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE382021AC4B80F007E59EC /* FBSDKMessengerShareKit.framework */; };
+		7AE382061AC4BA10007E59EC /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE382051AC4BA10007E59EC /* FBSDKLoginKit.framework */; };
+		7AE382081AC4BB11007E59EC /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE382071AC4BB11007E59EC /* Bolts.framework */; };
+		7AE3820A1AC4BB1B007E59EC /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE382091AC4BB1B007E59EC /* FBSDKCoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,11 @@
 		7AE381E61AC4B722007E59EC /* MessangerSDKDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessangerSDKDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AE381EB1AC4B722007E59EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AE381EC1AC4B722007E59EC /* MessangerSDKDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessangerSDKDemoTests.swift; sourceTree = "<group>"; };
+		7AE381F61AC4B732007E59EC /* MessangerSDKDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MessangerSDKDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		7AE382021AC4B80F007E59EC /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKMessengerShareKit.framework; path = ../../Documents/FacebookSDK/FBSDKMessengerShareKit.framework; sourceTree = "<group>"; };
+		7AE382051AC4BA10007E59EC /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		7AE382071AC4BB11007E59EC /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../../Documents/FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
+		7AE382091AC4BB1B007E59EC /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +52,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AE382081AC4BB11007E59EC /* Bolts.framework in Frameworks */,
+				7AE3820A1AC4BB1B007E59EC /* FBSDKCoreKit.framework in Frameworks */,
+				7AE382061AC4BA10007E59EC /* FBSDKLoginKit.framework in Frameworks */,
+				7AE382031AC4B80F007E59EC /* FBSDKMessengerShareKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +75,8 @@
 				7AE381D31AC4B722007E59EC /* MessangerSDKDemo */,
 				7AE381E91AC4B722007E59EC /* MessangerSDKDemoTests */,
 				7AE381D21AC4B722007E59EC /* Products */,
+				7AE382041AC4B816007E59EC /* Frameworks */,
+				7AE381F61AC4B732007E59EC /* MessangerSDKDemo-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +125,17 @@
 				7AE381EB1AC4B722007E59EC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7AE382041AC4B816007E59EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AE382091AC4BB1B007E59EC /* FBSDKCoreKit.framework */,
+				7AE382071AC4BB11007E59EC /* Bolts.framework */,
+				7AE382051AC4BA10007E59EC /* FBSDKLoginKit.framework */,
+				7AE382021AC4B80F007E59EC /* FBSDKMessengerShareKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,9 +362,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/seyhunak/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = MessangerSDKDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MessangerSDKDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -346,9 +380,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/seyhunak/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = MessangerSDKDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MessangerSDKDemo-Bridging-Header.h";
 			};
 			name = Release;
 		};
